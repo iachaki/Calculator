@@ -23,5 +23,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)bt0{
+    number=number*10+0;
+    
+}
+
+-(IBAction)bt1{
+    number=number*10+1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+-(IBAction)bt2{
+    number=number*10;2;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
 
 @end
