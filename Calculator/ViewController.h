@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 {
     int number;
+    
     IBOutlet UILabel *label;
 }
 -(IBAction)bt0;

@@ -26,6 +26,7 @@
 -(IBAction)bt0{
     number=number*10+0;
     label.text=[NSString stringWithFormat:@"%d",number];
+   
 }
 
 -(IBAction)bt1{
