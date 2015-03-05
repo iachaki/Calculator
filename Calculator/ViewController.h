@@ -14,6 +14,7 @@
     int number2;
     
     IBOutlet UILabel *label;
+    IBOutlet UILabel *label2;
 }
 -(IBAction)bt0;
 -(IBAction)bt1;
@@ -25,6 +26,8 @@
 -(IBAction)bt7;
 -(IBAction)bt8;
 -(IBAction)bt9;
+
+
 
 @end
 
