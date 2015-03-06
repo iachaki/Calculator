@@ -10,11 +10,14 @@
 
 @interface ViewController : UIViewController
 {
+    int ope;
     int number;
     int number2;
+    int number3;
     
     IBOutlet UILabel *label;
     IBOutlet UILabel *label2;
+    IBOutlet UILabel *label3;
 }
 -(IBAction)bt0;
 -(IBAction)bt1;
@@ -27,7 +30,7 @@
 -(IBAction)bt8;
 -(IBAction)bt9;
 
-
+-(IBAction)plus;
 
 @end
 

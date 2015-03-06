@@ -24,6 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)bt0{
+    if (ope==0)
     number=number*10+0;
     label.text=[NSString stringWithFormat:@"%d",number];
     number2=number2*10+0;
