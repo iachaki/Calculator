@@ -24,48 +24,68 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)bt0{
-    if (ope==0)
-    number=number*10+0;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+0;
+    if (ope==0){
+        number=number*10+0;
+        label.text=[NSString stringWithFormat:@"%d",number];
+
+    }
+    else{
+        number2=number2*10+0;
     label2.text=[NSString stringWithFormat:@"%d",number2];
+   }
 }
 
 -(IBAction)bt1{
-    number=number*10+1;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+1;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
+    if(ope==0){
+        number=number*10+1;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+1;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
 
+    }
 }
 -(IBAction)bt2{
-    number=number*10+2;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+2;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+2;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+2;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt3{
-    number=number*10+3;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+3;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+3;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+3;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 
 -(IBAction)bt4{
-    number=number*10+4;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+4;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+4;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+4;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt5{
-    number=number*10+5;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+5;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+5;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+5;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt6{
     number=number*10+6;
