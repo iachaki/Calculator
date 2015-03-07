@@ -88,33 +88,51 @@
     }
 }
 -(IBAction)bt6{
-    number=number*10+6;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+6;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+6;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+6;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt7{
-    number=number*10+7;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+7;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+7;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+7;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt8{
-    number=number*10+8;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+8;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+8;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+8;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 -(IBAction)bt9{
-    number=number*10+9;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    number2=number2*10+9;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-
+    if(ope==0){
+        number=number*10+9;
+        label.text=[NSString stringWithFormat:@"%d",number];
+    }
+    else{
+        number2=number2*10+9;
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+    }
 }
 
+
+-(IBAction)plus{
+    ope=1;
+    /*plusというボタンを押す前はもともとope=0で定義されている、
+     押した後はope=1にするとし、opeをbt1などで使えるようにする。*/
+}
 
 @end
