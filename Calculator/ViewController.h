@@ -32,6 +32,8 @@
 
 -(IBAction)plus;
 -(IBAction)equal;
+-(IBAction)clear;
+
 
 @end
 

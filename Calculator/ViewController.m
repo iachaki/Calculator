@@ -140,4 +140,14 @@
     label3.text=[NSString stringWithFormat:@"%d",number3];
 }
 
+-(IBAction)clear{
+    number=0;
+    number2=0;
+    number3=0;
+    ope=0;
+    label.text=[NSString stringWithFormat:@"%d",number];
+    label2.text=[NSString stringWithFormat:@"%d",number2];
+    label3.text=[NSString stringWithFormat:@"%d",number3];
+}
+
 @end
