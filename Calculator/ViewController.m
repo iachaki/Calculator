@@ -135,4 +135,9 @@
      押した後はope=1にするとし、opeをbt1などで使えるようにする。*/
 }
 
+-(IBAction)equal{
+    number3=number+number2;
+    label3.text=[NSString stringWithFormat:@"%d",number3];
+}
+
 @end
