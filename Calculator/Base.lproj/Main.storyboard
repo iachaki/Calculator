@@ -152,6 +152,9 @@
                                 <state key="normal" title="=">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="equal" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qtu-0N-Drh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -160,6 +163,7 @@
                     <connections>
                         <outlet property="label" destination="gUk-pM-dKM" id="IXO-7S-aIa"/>
                         <outlet property="label2" destination="agb-fw-cpV" id="92B-uM-3nn"/>
+                        <outlet property="label3" destination="Rkh-xg-3Qt" id="917-NK-ImV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
