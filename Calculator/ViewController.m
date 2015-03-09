@@ -33,6 +33,10 @@
         number2=number2*10+0;
     label2.text=[NSString stringWithFormat:@"%d",number2];
    }
+//    if (ope==2) {
+//        number2=number*10-0;
+//        label.text=[NSString stringWithFormat:@"%d",number];
+//    }
 }
 
 -(IBAction)bt1{
@@ -43,9 +47,9 @@
     else{
         number2=number2*10+1;
         label2.text=[NSString stringWithFormat:@"%d",number2];
-
     }
 }
+
 -(IBAction)bt2{
     if(ope==0){
         number=number*10+2;
@@ -143,6 +147,11 @@
 -(IBAction)equal{
     number3=number+number2;
     label3.text=[NSString stringWithFormat:@"%d",number3];
+    
+    if (ope==2) {
+        number3=number-number2;
+        label3.text=[NSString stringWithFormat:@"%d",number3];
+    }
 }
 
 
