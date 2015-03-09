@@ -27,11 +27,15 @@
     if (ope==0){
         number=number*10+0;
         label.text=[NSString stringWithFormat:@"%d",number];
+        label.textColor = [UIColor colorWithRed:166/255.0 green:160/255.0 blue:229/255.0 alpha:1.000];
+
 
     }
     else{
         number2=number2*10+0;
-    label2.text=[NSString stringWithFormat:@"%d",number2];
+        label2.text=[NSString stringWithFormat:@"%d",number2];
+        bt0.setColor = [UIColor colorWithRed:255/255.0 green:111/255.0 blue:124/255.0 alpha:1.00];
+
    }
 //    if (ope==2) {
 //        number2=number*10-0;
