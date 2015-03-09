@@ -126,6 +126,7 @@
         number2=number2*10+9;
         label2.text=[NSString stringWithFormat:@"%d",number2];
     }
+    
 }
 
 
@@ -134,11 +135,17 @@
     /*plusというボタンを押す前はもともとope=0で定義されている、
      押した後はope=1にするとし、opeをbt1などで使えるようにする。*/
 }
+-(IBAction)minus{
+    ope=2;
+}
+
 
 -(IBAction)equal{
     number3=number+number2;
     label3.text=[NSString stringWithFormat:@"%d",number3];
 }
+
+
 
 -(IBAction)clear{
     number=0;
