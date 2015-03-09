@@ -138,9 +138,15 @@
     ope=1;
     /*plusというボタンを押す前はもともとope=0で定義されている、
      押した後はope=1にするとし、opeをbt1などで使えるようにする。*/
+    label4.text=[NSString stringWithFormat:@"＋"];
+    //minusbuttonを押したときにNSString型の"ー"をlabel4に表示する
+
+
 }
 -(IBAction)minus{
     ope=2;
+    label4.text=[NSString stringWithFormat:@"ー"];
+    //minusbuttonを押したときにNSString型の"ー"をlabel4に表示する
 }
 
 
@@ -151,6 +157,7 @@
     if (ope==2) {
         number3=number-number2;
         label3.text=[NSString stringWithFormat:@"%d",number3];
+      
     }
 }
 

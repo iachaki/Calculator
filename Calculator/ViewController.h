@@ -15,9 +15,11 @@
     int number2;
     int number3;
     
+    
     IBOutlet UILabel *label;
     IBOutlet UILabel *label2;
     IBOutlet UILabel *label3;
+    IBOutlet UILabel *label4;
 }
 -(IBAction)bt0;
 -(IBAction)bt1;
