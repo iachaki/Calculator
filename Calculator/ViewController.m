@@ -147,7 +147,7 @@
 
 -(IBAction)kakeru{
     ope=3;
-    label4.text=[NSString stringWithFormat:@"×"];
+    label4.text=[NSString stringWithFormat:@" ×"];
 }
 
 
@@ -160,6 +160,10 @@
         label3.text=[NSString stringWithFormat:@"%d",number3];
       
     }
+    if (ope==3) {
+        number3=number*number2;
+        label3.text=[NSString stringWithFormat:@"%d",number3];
+    }
 }
 
 
@@ -169,9 +173,9 @@
     number2=0;
     number3=0;
     ope=0;
-    label.text=[NSString stringWithFormat:@"%d",number];
-    label2.text=[NSString stringWithFormat:@"%d",number2];
-    label3.text=[NSString stringWithFormat:@"%d",number3];
+    label.text=[NSString stringWithFormat:@" "];
+    label2.text=[NSString stringWithFormat:@" "];
+    label3.text=[NSString stringWithFormat:@" "];
 }
 
 @end
