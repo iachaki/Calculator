@@ -150,6 +150,11 @@
     label4.text=[NSString stringWithFormat:@" ×"];
 }
 
+-(IBAction)waru{
+    ope=4;
+    label.text=[NSString stringWithFormat:@" ÷"];
+}
+
 
 -(IBAction)equal{
     number3=number+number2;

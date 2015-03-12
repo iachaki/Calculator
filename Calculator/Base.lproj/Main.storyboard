@@ -162,7 +162,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrJ-Na-cBS">
-                                <rect key="frame" x="252" y="452" width="50" height="30"/>
+                                <rect key="frame" x="251" y="478" width="50" height="30"/>
                                 <state key="normal" title="CLEAR">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,7 +200,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDQ-fD-r64">
-                                <rect key="frame" x="264" y="402" width="30" height="30"/>
+                                <rect key="frame" x="264" y="440" width="30" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -208,6 +208,17 @@
                                 </state>
                                 <connections>
                                     <action selector="equal" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qtu-0N-Drh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOI-q4-giv">
+                                <rect key="frame" x="264" y="402" width="30" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="÷">
+                                    <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="waru" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6SD-9T-uC1"/>
                                 </connections>
                             </button>
                         </subviews>
