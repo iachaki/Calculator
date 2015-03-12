@@ -152,7 +152,7 @@
 
 -(IBAction)waru{
     ope=4;
-    label.text=[NSString stringWithFormat:@" ÷"];
+    label4.text=[NSString stringWithFormat:@" ÷"];
 }
 
 
