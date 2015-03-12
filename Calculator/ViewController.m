@@ -169,6 +169,10 @@
         number3=number*number2;
         label3.text=[NSString stringWithFormat:@"%d",number3];
     }
+    if (ope==4) {
+        number3=number/number2;
+        label3.text=[NSString stringWithFormat:@"%d",number3];
+    }
 }
 
 
